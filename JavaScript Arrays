@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>The best way to loop through an array is using a standard for loop:</p>
+
+<p id="demo"></p>
+
+<script>
+const A = ["Banana", "Orange", "Apple", "Mango"];
+let B = A.length;
+
+let C = "<ul>";
+for (let i = 0; i < B; i++) {
+  C += "<li>" + A[i] + "</li>";
+}
+C += "</ul>";
+
+document.getElementById("demo").innerHTML = C;
+</script>
+
+</body>
+</html>
